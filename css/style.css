@@ -1,0 +1,237 @@
+header h1{
+color: rosybrown;
+font-style: normal;
+font-weight: 400px;
+text-align: center;
+font-size: 5rem;
+font-family: 'Amaranth', sans-serif;
+}
+
+main div h1 {
+color: rosybrown;
+font-style: normal;
+font-family: 'Amaranth', sans-serif;
+text-align: center;
+font-size: 4rem;
+font-weight: 400px;
+}
+
+body {
+background-image: url("../img/34775.jpg");
+resize: both;
+overflow: auto;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+
+h1{
+color: black;
+font-style: normal;
+font-weight: 200;
+text-align: center;
+font-size: 1rem;
+font-family: 'Amaranth', sans-serif;
+}
+
+h2 {
+color: black;
+font-style: normal;
+font-weight: 400px;
+text-align: center;
+font-size: 1rem;
+font-family: 'Amaranth', sans-serif;
+}
+
+section h2 {
+color: rosybrown;
+font-size: 3rem;
+font-style: normal;
+text-align: center;
+font-family: 'Amaranth', sans-serif;
+font-weight: 400px;
+}
+
+footer {
+text-align: center;
+font-family: 'Amaranth', sans-serif;
+}
+
+h3 {
+color: black;
+font-style: italic;
+font-weight: 400px;
+text-align: justify;
+line-height: 1.5;
+font-size: 1rem;
+text-decoration: none;
+font-family: 'Amaranth', sans-serif;
+}
+
+footer h3 {
+text-align:center;
+color: black;
+font-style: normal;
+font-weight: 400px;
+font-size: 1rem;
+font-family: 'Amaranth', sans-serif;
+}
+
+footer section h4 {
+color: black;
+font-weight: 400px;
+text-align: center;
+font-size: 1rem;
+font-family: 'Amaranth', sans-serif;
+}
+
+footer ul li{
+display: inline-block;
+}
+
+h4 {
+color: black;
+font-weight: 400px;
+text-align: center;
+font-size: 1rem;
+font-family: 'Amaranth', sans-serif;
+}
+
+ul {
+color: black;
+list-style: none;
+font-weight: 400px;
+font-family: 'Amaranth', sans-serif;
+text-align: center;
+}
+
+header nav {
+color: indianred;
+font-style: normal;
+font-size: 2rem;
+font-weight: 400px;
+text-align: center;
+font-family: 'Amaranth', sans-serif;
+}
+
+.caja {
+background-color: indianred;
+height: 350px;
+border-width: 20px;
+border-style: solid;
+border-color: lightpink;
+border-top: 10px solid lightcoral;
+border-bottom: 30px solid lightcoral;
+padding: 30px;
+text-align: center;
+width: fit-content;
+}
+
+.contenedor{
+background-color: indianred;
+width: 500;
+height: 350px;
+display:flex;
+flex-direction:row;
+}
+
+.widget_blog_subscription {
+display: block;
+margin: 50px auto;
+width: 60%;
+max-width: 490px;
+min-width: 320px;
+position: relative;
+overflow: hidden;
+background-color: lightpink;
+border-width: 20px;
+border-style: solid;
+border-color: rosybrown;
+border-top: 10px solid lightcoral;
+border-bottom: 30px solid lightcoral;
+padding: 30px;
+text-align: center;
+}
+
+.widget_blog_subscription P {
+margin: 0px;
+text-align: center;
+}
+
+.widget_blog_subscription p:first-child {
+margin: 40px 15px 0px;
+color: rosybrown;
+text-transform: uppercase;
+text-align: center;
+font-size: 40px;
+font-family: 'Amaranth', sans-serif;
+letter-spacing: 1px;
+}
+
+.widget_blog_subscription input[type="text"] {
+margin: 45px 30px;
+color: lightcoral ;
+padding: 25px 15px !important;
+text-align: center;
+width: 100% !important;
+max-width: calc(100%-90px) ;
+outline: none;
+border: 0px;
+text-transform: uppercase;
+font-size: 12px;
+}
+
+.widget_blog_subscription input[type="text"]::-webkit-input-placeholder {
+color: indianred;
+}
+
+.widget_blog_subscription input_[type="text"]:-moz-placeholder {
+color: indianred;
+}
+
+.widget_blog_subscription input_[type="text"]::-moz-placeholder {
+color: indianred;
+}
+
+.widget_blog_subscription input_[type="text"]:-ms-input-placeholder {
+color: indianred;
+}
+
+.widget_blog_subscription input[type="submit"] {
+margin: 0px;
+background-color: indianred;
+color: darksalmon;
+padding: 25px 15px !important;
+text-align: center;
+width: 100%;
+max-width: 100%;
+outline: none;
+border: 0px;
+text-transform: uppercase;
+font-size: 12px;
+cursor: pointer;
+-webkit-transition: 0.1s all ease-in-out;
+-moz-transition: 0.1s all ease-in-out;
+-o-transition: 0.1s all ease-in-out;
+transition: 0.1s all ease-in-out;
+}
+
+.widget_blog_subscription input [type="submit"] {
+background-color: rosybrown;
+}
+
+.slider-container {
+display: flex;
+width: 100%;
+height: 100vh;
+overflow-x: scroll;
+scroll-snap-type: x mandatory;
+}
+
+.slider-container img {
+flex: 0 0 100%;
+width: 100%;
+object-fit: cover;
+scroll-snap-align: center;
+}
