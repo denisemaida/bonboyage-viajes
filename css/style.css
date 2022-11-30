@@ -126,6 +126,7 @@ border-bottom: 30px solid lightcoral;
 padding: 30px;
 text-align: center;
 width: fit-content;
+flex-direction: row;
 }
 
 .contenedor{
@@ -235,3 +236,5 @@ width: 100%;
 object-fit: cover;
 scroll-snap-align: center;
 }
+
+
