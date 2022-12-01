@@ -107,7 +107,7 @@ text-align: center;
 }
 
 header nav {
-color: indianred;
+color: black;
 font-style: normal;
 font-size: 2rem;
 font-weight: 400px;
@@ -236,5 +236,3 @@ width: 100%;
 object-fit: cover;
 scroll-snap-align: center;
 }
-
-
