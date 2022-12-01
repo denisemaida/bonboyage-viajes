@@ -135,6 +135,7 @@ width: 500;
 height: 350px;
 display:flex;
 flex-direction:row;
+font-family: 'Amaranth', sans-serif;
 }
 
 .widget_blog_subscription {
