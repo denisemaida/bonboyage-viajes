@@ -237,3 +237,8 @@ width: 100%;
 object-fit: cover;
 scroll-snap-align: center;
 }
+
+.fotos {
+    display:flex;
+    justify-content: center
+}
